@@ -10,8 +10,9 @@ void setup() {
  
 void loop() {  
   zakres(20); //Włącz alarm, jeśli w odległości od 10 do 25 cm od czujnika jest przeszkoda  
-  delay(100);
-} 
+  delay(1000);
+// wysla pomiar co 1 s
+}
  
 int zmierzOdleglosc() {
   long czas, dystans;
